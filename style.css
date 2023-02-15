@@ -1,0 +1,33 @@
+html {background: linear-gradient(black, white); height: 100%; color: white; margin: auto;}
+
+.calculator {color: white; padding-top: 2.5%; padding-left: 40%; margin: none; width: 20%; align-self: center;}
+
+.equation {grid-area: equation;}
+.result {grid-area: result;}
+
+.add {grid-area: add;}
+.subtract {grid-area: subtract;}
+.multiply {grid-area: multiply;}
+.divide {grid-area: divide;}
+
+.openBracket {grid-area: openBracket;}
+.closeBracket {grid-area: closeBracket;}
+
+.one {grid-area: one;}
+.two {grid-area: two;}
+.three {grid-area: three;}
+.four {grid-area: four;}
+.five {grid-area: five;}
+.six {grid-area: six;}
+.seven {grid-area: seven;}
+.eight {grid-area: eight;}
+.nine {grid-area: nine;}
+.zero {grid-area: zero;}
+
+.decimal {grid-area: decimal;}
+.back {grid-area: back;}
+.clear {grid-area: clear;}
+
+.buttons {display: grid; grid-template-areas: 'equation equation equation' 'result result result' 'add subtract multiply' 'divide openBracket closeBracket' 'one two three' 'four five six' 'seven eight nine' 'zero zero zero' 'back decimal clear'; text-align: center; font-size: 25px; gap: 5px; background-color: rgb(129, 129, 129); padding: 10px; border-radius: 8px;}
+.buttons > div{background-color: rgb(51, 51, 51); padding: 5px; transition: all 0.35s; border-radius: 4px;}
+.buttons > div:hover{background-color: rgb(101, 101, 101); font-size: 40px; border-radius: 20px;}
